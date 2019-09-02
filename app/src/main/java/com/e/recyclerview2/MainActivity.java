@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById( R.id.recycler );
         ArrayList<MyModel> arrayList = new ArrayList<MyModel>();
-        MyModel myModel=new MyModel( "gaurav" );
-        MyModel myModel2=new MyModel( "tomar" );
-        MyModel myModel3=new MyModel( "golu" );
-        MyModel myModel4=new MyModel( "raman" );
-        MyModel myModel5=new MyModel( "pawan" );
-        MyModel myModel6=new MyModel( "banti" );
+        MyModel myModel=new MyModel( "gaurav",R.drawable.ic_launcher_background);
+        MyModel myModel2=new MyModel( "tomar",R.drawable.ic_launcher_background );
+        MyModel myModel3=new MyModel( "golu",R.drawable.ic_launcher_background );
+        MyModel myModel4=new MyModel( "raman" ,R.drawable.ic_launcher_background);
+        MyModel myModel5=new MyModel( "pawan",R.drawable.ic_launcher_background );
+        MyModel myModel6=new MyModel( "banti",R.drawable.ic_launcher_background );
 
         arrayList.add( myModel );
         arrayList.add( myModel2 );
